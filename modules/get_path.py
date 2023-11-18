@@ -37,6 +37,7 @@ class SelectFolderPathEasy6321:
     CATEGORY = "umikaze"
     
     def get_my_path(self,folder_name,file_name,time_format):
+        print("Hello")
         # 今日の日付を取得
         today = datetime.today()
 
