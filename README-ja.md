@@ -25,5 +25,7 @@ git clone https://github.com/Umikaze-job/select_folder_path_easy
 
 ## パラメータ説明
 folder_name: フォルダ名
+
 file_name: ファイル名を指定(\[file_name\]_\[画像ID\].pngというファイル名になります。)
+
 time_format: 時間フォルダのフォーマットを指定します。
