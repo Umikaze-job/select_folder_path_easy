@@ -19,7 +19,7 @@ git clone https://github.com/Umikaze-job/select_folder_path_easy
 # Usage
 1. right-click on the \[Save Image\] node and click on\[Convert filename_prefix to input\].
 
-! [image02](/images/image02.png)
+![image02](/images/image02.png)
 
 2. connect \[select folder path easy\] and \[Save Image\] and you are good to go.
 
