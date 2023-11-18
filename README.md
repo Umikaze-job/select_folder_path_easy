@@ -2,6 +2,8 @@
 
 ## Easier specification of output folder
 
+[日本語の説明はこちら](README-ja.md)
+
 ![image01](/images/image01.png)
 
 ## What is this extension?
