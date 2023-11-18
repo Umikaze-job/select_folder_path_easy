@@ -5,6 +5,7 @@ import os
 class SelectFolderPathEasy6321:
     day_format = None
     def __init__(self):
+        print("Hello!")
         # 現在のスクリプトが存在するディレクトリのパス
         current_directory = os.path.dirname(os.path.realpath(__file__))
 
