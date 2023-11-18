@@ -3,16 +3,8 @@ import json
 import os
 
 class SelectFolderPathEasy6321:
-    day_format = None
     def __init__(self):
-        # 現在のスクリプトが存在するディレクトリのパス
-        current_directory = os.path.dirname(os.path.realpath(__file__))
-
-        # ひとつ上のディレクトリのパスを取得
-        parent_directory = os.path.abspath(os.path.join(current_directory, os.pardir))
-        with open(os.path.join(parent_directory, 'setting.json'),"r") as f:
-            json_dict = json.load(f)
-            self.day_format = json_dict["day_format"]
+        pass
 
     @classmethod
     def INPUT_TYPES(self):
@@ -28,7 +20,7 @@ class SelectFolderPathEasy6321:
                 }),
                 "time_format":("STRING",{
                     "multiline": False, #True if you want the field to look like the one on the ClipTextEncode node
-                    "default": self.day_format
+                    "default": r"%Y-%m-%d"
                 })
             }
         }
